@@ -4,17 +4,18 @@
 
 > Lets you build your [NW.js](https://github.com/nwjs/nw.js) apps for mac, win and linux via cli. It will download the prebuilt binaries for a newest version, unpacks it, creates a release folder, create the app.nw file for a specified directory and copies the app.nw file where it belongs.
 
+This is a self-maintained repo of `nw-builder` which temporarily fixs support for 0.13.x normal/SDK/NaCl versions.
 
 ### Installation
 
 ##### Local
 ```shell
-npm install nw-builder --save-dev
+npm install evshiron/nw-builder --save-dev
 ```
 
 ##### Global
 ```shell
-npm install nw-builder -g
+npm install evshiron/nw-builder -g
 ```
 
 ##### Grunt and Gulp Plugins
@@ -46,7 +47,7 @@ var NwBuilder = require('nw-builder');
 var nw = new NwBuilder({
     files: './path/to/nwfiles/**/**', // use the glob format
     platforms: ['osx32', 'osx64', 'win32', 'win64'],
-    version: '0.12.3'
+    version: '0.13.0-rc3-sdk'
 });
 
 //Log stuff you want

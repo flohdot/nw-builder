@@ -6,6 +6,8 @@
 
 This is a self-maintained repo of `nw-builder` which temporarily fixs support for 0.13.x normal/SDK/NaCl versions.
 
+This repo is deprecated now as I reimplement a [evshiron/nwjs-builder](https://github.com/evshiron/nwjs-builder), which should be a successor to `evshiron/nw-builder`. If you are a new user please move forward to `nwjs-builder`. This repo should still work with nw.js 0.13.x/0.14.x and node.js pre 6.x, but will not have any updates.
+
 ### Installation
 
 ##### Local

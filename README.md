@@ -1,12 +1,9 @@
+### A note regarding this fork
+This is a fork of `evshiron/nw-builder` with some PRs from Atlassian merged -- see `macPlistStrings` option. Tested and working for 0.14.x on osx64 and win32. See (upstream #320)[https://github.com/nwjs/nw-builder/issues/320] and (upstream #315)[https://github.com/nwjs/nw-builder/issues/315] for explanations.
+
 # nw-builder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
 [![NPM](https://nodei.co/npm/nw-builder.png?downloads=true)](https://nodei.co/npm/nw-builder/)
-
-> Lets you build your [NW.js](https://github.com/nwjs/nw.js) apps for mac, win and linux via cli. It will download the prebuilt binaries for a newest version, unpacks it, creates a release folder, create the app.nw file for a specified directory and copies the app.nw file where it belongs.
-
-This is a self-maintained repo of `nw-builder` which temporarily fixs support for 0.13.x normal/SDK/NaCl versions.
-
-This repo is deprecated now as I reimplement a [evshiron/nwjs-builder](https://github.com/evshiron/nwjs-builder), which should be a successor to `evshiron/nw-builder`. If you are a new user please move forward to `nwjs-builder`. This repo should still work with nw.js 0.13.x/0.14.x and node.js pre 6.x, but will not have any updates.
 
 ### Installation
 
